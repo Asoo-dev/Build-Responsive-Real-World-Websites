@@ -17,7 +17,7 @@ body {
   background-color: hsl(0, 0%, 97%);
   padding: 20px 40px;
   margin: 0 0 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 .post-header {
@@ -148,4 +148,14 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  /* background-color: orangered; */
+  margin: 10px 20px 0 0;
+  /* padding: 20px; */
+  display: inline-block;
+}
+nav a:link:last-child {
+  margin-right: 0;
 }
