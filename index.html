@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=devvice-width, initial-scale=1.0" />
     <title>The Basic Language of the Web: HTML</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -22,7 +23,9 @@
           width="50"
           height="50"
         />
-        <p>Posted by <strong> Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong> Laura Jones</strong> on Monday, June 21st 2027
+        </p>
         <img
           src="img/post-img.jpg"
           alt="HTML code on a screen"
@@ -79,7 +82,7 @@
     </article>
     <aside>
       <h4>Related posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="img/related-1.jpg"
@@ -87,7 +90,7 @@
             width="75"
             height="75"
           /><a href="#">How to learn web development</a>
-          <p>By <em>Jones Schmedman</em></p>
+          <p class="related-author">By <em>Jones Schmedman</em></p>
         </li>
         <li>
           <img
@@ -96,7 +99,7 @@
             width="75"
             height="75"
           /><a href="#">The unknown power of CSS</a>
-          <p>By <em>Jim Dilom</em></p>
+          <p class="related-author">By <em>Jim Dilom</em></p>
         </li>
         <li>
           <img
@@ -105,11 +108,13 @@
             width="75"
             height="75"
           /><a href="#">Why javascript is awesome</a>
-          <p>By <em>Matelda</em></p>
+          <p class="related-author">By <em>Matelda</em></p>
         </li>
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2027 by the code Magazine</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by the code Magazine</p>
+    </footer>
   </body>
 </html>
