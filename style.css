@@ -70,3 +70,20 @@ aside {
   border-top: 5px solid #2864e6;
   border-bottom: 5px solid #2864e6;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-weight: bold;
+}
+
+li:nth-child(2) {
+  /* color: red; */
+}
+
+/* missconception won't work*/
+article p:first-child {
+  color: red;
+}
