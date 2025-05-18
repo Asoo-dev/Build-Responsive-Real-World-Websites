@@ -199,3 +199,15 @@ h2::after {
   top: -10px;
   right: -25px;
 }
+
+/* Float */
+
+.author {
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+}
+.author-img {
+  float: left;
+}
+/* Float */
